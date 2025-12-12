@@ -54,7 +54,7 @@ function Scene() {
       <pointLight position={[10, -5, 10]} intensity={0.3} color="#7c3aed" />
       
       {/* Background stars */}
-      <Stars radius={50} depth={50} count={2000} factor={4} saturation={0} fade speed={0.5} />
+      <Stars radius={50} depth={50} count={3000} factor={8} saturation={0} fade speed={0.5} />
       
       {/* Intent nodes */}
       {nodesWithPositions.map((node) => (
